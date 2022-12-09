@@ -1,0 +1,1 @@
+# Multiple inheritance is one child :child

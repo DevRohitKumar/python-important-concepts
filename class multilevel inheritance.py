@@ -1,4 +1,4 @@
-#Multilevel inheritance between gradfather👴, father🧔‍♂️and the son👶
+#Multilevel inheritance between gradfather👴, father🧔‍♂️and the son🧒
 
 class Grandpa:
     
