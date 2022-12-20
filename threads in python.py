@@ -28,5 +28,4 @@ w.join()
 d.join()
 
 print(threading.active_count())
-print(threading.enumerate())
 print(time.perf_counter())
