@@ -19,8 +19,27 @@ tk.iconphoto(False, icon)
 # set title
 tk.title("First tkinter GUI")
 
+# add label 
+label = Label(tk,
+              text= "Tkinter is fun!🥳",
+              fg="white",
+              font=("san serif", 30, "italic"),
+              bg="grey",
+              cursor="dot",
+              bd=10,
+              relief= GROOVE, 
+            #   padx=50,
+            #   pady=50,
+              image=icon,
+              compound= "bottom",
+              )
+label.pack() #we can also use place(x= , y=) for specific location
+
+# configure window 
 tk.config(
-    
+    background= "#1664e0"
 )
+
+
 
 tk.mainloop()
